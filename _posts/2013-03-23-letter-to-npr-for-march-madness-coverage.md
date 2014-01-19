@@ -1,7 +1,6 @@
 ---
 layout: post
 category : blog
-permalink: /:year/:month/:title
 tagline: 
 tags : [winikates]
 ---
