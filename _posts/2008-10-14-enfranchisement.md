@@ -8,7 +8,7 @@ tags: [archive]
 ---
 <p>To anyone who knows me, voter rights are very important to me.&nbsp; It is the top reason that makes me think that I should go to law school.&nbsp; The last time I had the urge to fight someone was when they told a volunteer they couldn&#39;t register voters where it was totally reasonable to do so.&nbsp; This is why I have a register to vote widget on this blog.&nbsp; This is why I was so angry when I heard about this clip, saying young people should not vote:</p>
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/hvl0lqhCVio?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="//www.youtube.com/embed/hvl0lqhCVio?rel=0" frameborder="0" allowfullscreen="true"></iframe>
 
 
 <div class="youtube" id="hvl0lqhCVio" style="width:640px; height: 480px">video
