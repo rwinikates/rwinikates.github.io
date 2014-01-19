@@ -17,5 +17,3 @@ So Alaska has had its crazy ups and downs in my first 8 days here.  Far and awa
 	<li>Still no car.  Looking for what the locals call a "beater with a heater" since block heaters are standard with cars up here so that they will start efficiently under 20 degrees F.  Luckily, I don't need to worry about that since I'll be leaving before it gets too much colder than that.  Its getting to be real frustrating not having my own wheels since it is beginning to hinder my ability to get to meetings and go shopping etc.  This is not for lack of funds nor lack of trying either, more just a lack of time and transport to go see the vehicles available.  Luckily, the cars we do have around are mostly driven by folks willing to share rides, including the ever classy chauffeured transport by The Beast.</li>
 </ul>
 That's about it for now folks, thanks for reading this far and drop me a line to let me know how you all are doing, wherever you are.  I'll try to get pictures up of some of these things.
-
-[gallery] 
