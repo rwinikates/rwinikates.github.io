@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rob Win·i·kates (n):
+title: Rob Win-i-kates (n)
 tagline: 
 published: true
 ---
