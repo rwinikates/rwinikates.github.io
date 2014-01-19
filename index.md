@@ -9,7 +9,7 @@ published: true
 * Bostonian
 * Sporadic photographer
 
-This site doesn't get used for much, but below are a few posts over the past several years.  [Find me on twitter for a more active discussion](twitter.com/rob_w).
+This site doesn't get used for much, but below are a few posts over the past several years.  [Find me on twitter for a more active discussion](http://twitter.com/rob_w).
 
 <ul class="posts">
   {% for post in site.posts %}
