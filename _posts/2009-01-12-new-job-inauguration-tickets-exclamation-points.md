@@ -2,9 +2,6 @@
 layout: post
 title: "New job!! Inauguration tickets!! Exclamation points!!"
 date: 2009-01-12 18:21
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/12/new-job-inauguration-tickets-exclamation-points
 category: blog
 tags: [archive]

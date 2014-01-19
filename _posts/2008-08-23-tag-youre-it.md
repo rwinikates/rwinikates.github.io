@@ -2,9 +2,6 @@
 layout: post
 title: "Tag, you're IT!"
 date: 2008-08-23 19:11
-comments: false
-sharing: true
-footer: true
 permalink: 2008/08/23/tag-youre-it
 category: blog
 tags: [archive]

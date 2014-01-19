@@ -2,9 +2,6 @@
 layout: post
 title: "Enfranchisement."
 date: 2008-10-14 6:28
-comments: false
-sharing: true
-footer: true
 permalink: 2008/10/14/enfranchisement
 category: blog
 tags: [archive]

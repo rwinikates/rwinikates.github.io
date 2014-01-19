@@ -2,9 +2,6 @@
 layout: post
 title: "Obama clinches, Rob's graduating"
 date: 2008-06-04 14:30
-comments: false
-sharing: true
-footer: true
 permalink: 2008/06/04/obama-clinches-robs-graduating
 category: blog
 tags: [archive]

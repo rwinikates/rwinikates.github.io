@@ -2,9 +2,6 @@
 layout: post
 title: "Nature update!"
 date: 2008-07-10 11:26
-comments: false
-sharing: true
-footer: true
 permalink: 2008/07/10/nature-update
 category: blog
 tags: [archive]

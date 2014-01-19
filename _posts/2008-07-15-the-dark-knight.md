@@ -2,9 +2,6 @@
 layout: post
 title: "The Dark Knight"
 date: 2008-07-15 22:16
-comments: false
-sharing: true
-footer: true
 permalink: 2008/07/15/the-dark-knight
 category: blog
 tags: [archive]

@@ -2,9 +2,6 @@
 layout: post
 title: "All I have to say is wow."
 date: 2008-07-13 11:22
-comments: false
-sharing: true
-footer: true
 permalink: 2008/07/13/all-i-have-to-say-is-wow
 category: blog
 tags: [archive]

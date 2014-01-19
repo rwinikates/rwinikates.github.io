@@ -2,9 +2,6 @@
 layout: post
 title: "Happy Thanksgiving"
 date: 2008-11-27 9:32
-comments: false
-sharing: true
-footer: true
 permalink: 2008/11/27/happy-thanksgiving
 category: blog
 tags: [archive]

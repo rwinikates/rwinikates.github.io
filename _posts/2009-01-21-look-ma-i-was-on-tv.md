@@ -2,9 +2,6 @@
 layout: post
 title: "Look Ma, I was on tv!"
 date: 2009-01-21 6:46
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/21/look-ma-i-was-on-tv
 category: blog
 tags: [archive]

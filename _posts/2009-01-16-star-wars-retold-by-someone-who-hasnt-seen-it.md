@@ -2,9 +2,6 @@
 layout: post
 title: "Star Wars: Retold (by someone who hasn't seen it)"
 date: 2009-01-16 5:13
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/16/star-wars-retold-by-someone-who-hasnt-seen-it
 category: blog
 tags: [archive]

@@ -2,9 +2,6 @@
 layout: post
 title: "Media and Hillary's suspension"
 date: 2008-06-08 15:36
-comments: false
-sharing: true
-footer: true
 permalink: 2008/06/08/media-and-hillarys-suspension
 category: blog
 tags: [archive]

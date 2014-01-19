@@ -2,9 +2,6 @@
 layout: post
 title: "Never let me ride without a helmet again"
 date: 2008-12-18 5:52
-comments: false
-sharing: true
-footer: true
 permalink: 2008/12/18/never-let-me-ride-without-a-helmet-again
 category: blog
 tags: [archive]

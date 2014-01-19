@@ -2,9 +2,6 @@
 layout: post
 title: "North to the Future!"
 date: 2008-06-27 3:30
-comments: false
-sharing: true
-footer: true
 permalink: 2008/06/27/north-to-the-future
 category: blog
 tags: [archive]

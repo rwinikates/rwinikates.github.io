@@ -2,9 +2,6 @@
 layout: post
 title: "I'm sorry Ted"
 date: 2010-01-19 19:31
-comments: false
-sharing: true
-footer: true
 permalink: 2010/01/19/im-sorry-ted
 category: blog
 tags: [archive]

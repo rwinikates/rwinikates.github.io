@@ -2,9 +2,6 @@
 layout: post
 title: "The President-elect is a good man"
 date: 2009-01-08 12:09
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/08/the-president-elect-is-a-good-man
 category: blog
 tags: [archive]

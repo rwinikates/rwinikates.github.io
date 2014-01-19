@@ -2,9 +2,6 @@
 layout: post
 title: "Using iMacros to loop through Drupal content list and save"
 date: 2012-02-26 16:17
-comments: false
-sharing: true
-footer: true
 permalink: blog/using-imacros-loop-through-drupal-content-list-and-save
 category: blog
 tags: [archive]

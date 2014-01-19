@@ -2,9 +2,6 @@
 layout: post
 title: "Happy New Year"
 date: 2009-01-01 19:43
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/01/happy-new-year
 category: blog
 tags: [archive]

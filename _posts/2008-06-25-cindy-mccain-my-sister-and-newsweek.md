@@ -2,9 +2,6 @@
 layout: post
 title: "Cindy McCain, my sister, and Newsweek"
 date: 2008-06-25 1:24
-comments: false
-sharing: true
-footer: true
 permalink: 2008/06/25/cindy-mccain-my-sister-and-newsweek
 category: blog
 tags: [archive]

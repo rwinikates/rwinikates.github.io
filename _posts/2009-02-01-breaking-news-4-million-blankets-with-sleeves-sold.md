@@ -2,9 +2,6 @@
 layout: post
 title: "Breaking News: 4 Million Blankets with Sleeves sold"
 date: 2009-02-01 9:16
-comments: false
-sharing: true
-footer: true
 permalink: 2009/02/01/breaking-news-4-million-blankets-with-sleeves-sold
 category: blog
 tags: [archive]

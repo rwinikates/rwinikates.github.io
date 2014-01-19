@@ -2,9 +2,6 @@
 layout: post
 title: "Week 1 update"
 date: 2008-07-06 8:10
-comments: false
-sharing: true
-footer: true
 permalink: 2008/07/06/week-1-update
 category: blog
 tags: [archive]

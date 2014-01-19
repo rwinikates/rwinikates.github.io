@@ -2,9 +2,6 @@
 layout: post
 title: "Cue the Bon Jovi..."
 date: 2008-08-31 18:35
-comments: false
-sharing: true
-footer: true
 permalink: 2008/08/31/cue-the-bon-jovi
 category: blog
 tags: [archive]

@@ -2,9 +2,6 @@
 layout: post
 title: "New Nickname: Techbear"
 date: 2009-02-04 13:12
-comments: false
-sharing: true
-footer: true
 permalink: 2014/01/new-nickname-techbear
 category: blog
 tags: [archive]

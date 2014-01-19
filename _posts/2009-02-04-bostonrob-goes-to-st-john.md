@@ -2,9 +2,6 @@
 layout: post
 title: "BostonRob goes to St. John"
 date: 2009-02-04 13:12
-comments: false
-sharing: true
-footer: true
 permalink: 2014/01/bostonrob-goes-st-john
 category: blog
 tags: [archive]

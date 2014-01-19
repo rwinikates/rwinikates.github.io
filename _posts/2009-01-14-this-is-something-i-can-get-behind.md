@@ -2,9 +2,6 @@
 layout: post
 title: "This is something I can get behind"
 date: 2009-01-14 9:37
-comments: false
-sharing: true
-footer: true
 permalink: 2009/01/14/this-is-something-i-can-get-behind
 category: blog
 tags: [archive]

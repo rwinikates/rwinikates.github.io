@@ -2,9 +2,6 @@
 layout: post
 title: "Proof that John Kerry is human, or Suppoort for why I've liked him all along"
 date: 2009-02-27 5:58
-comments: false
-sharing: true
-footer: true
 permalink: 2009/02/27/proof-that-john-kerry-is-human-or-suppoort-for-why-ive-liked-him-all-along
 category: blog
 tags: [archive]

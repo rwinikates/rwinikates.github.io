@@ -2,9 +2,6 @@
 layout: post
 title: "Rootscamp Redux"
 date: 2009-02-04 13:12
-comments: false
-sharing: true
-footer: true
 permalink: 2014/01/rootscamp-redux
 category: blog
 tags: [archive]

@@ -2,9 +2,6 @@
 layout: post
 title: "Friday night thoughts"
 date: 2008-07-25 22:59
-comments: false
-sharing: true
-footer: true
 permalink: 2008/07/25/friday-night-thoughts
 category: blog
 tags: [archive]
