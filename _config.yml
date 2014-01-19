@@ -5,6 +5,9 @@ permalink: /:year/:month/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
+# try redcarpet renderer, since Maruku seems to be funky with some html5 bits
+markdown: redcarpet
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
