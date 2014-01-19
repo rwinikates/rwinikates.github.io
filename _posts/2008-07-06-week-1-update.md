@@ -3,7 +3,7 @@ layout: post
 category: blog
 tags: [archive]
 ---
-So Alaska has had its crazy ups and downs in my first 8 days here.  Far and away things have been great.  Some of the highlights:
+So Alaska has had its crazy ups and downs in my first 8 days here.  Far and away things have been great. Some of the highlights:
 <ul>
 	<li>Our office is an old Montessori school, complete with <a href="http://bostonrob.wordpress.com/?attachment_id=23">kiddie sized toilets</a> with view in windows so the teachers could check in and see how they were doing.  Luckily the windows have been removed, but sadly a few of the toilets remain.  Its ok.  We have big boy ones too.  We also have playground equipment out back, and I may have done an evening of calls sitting on the 3 foot slide.</li>
 	<li>We have had an assortment of cars rotate through the campaign.  Sadly, most are manual transmission, so I actually haven't driven a car except for the two that I have test driven.  The gem of all the cars loaned to the campaign is a <a title="Not the actual vehicle.  Ours is much dirtier." href="http://www.lmctruck.com/assets/customer-pictures2/bzc76-louis-b-al.jpg">1982 Chevy Blazer</a> we have lovingly named "The Beast."  This thing is a 2 door steel can on wheels.  The passenger side door has a dresser knob as its lock post, the rear tailgate doesn't fold down, and best of all, it starts without a key.  Shh. Don't tell.</li>
