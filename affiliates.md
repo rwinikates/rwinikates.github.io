@@ -18,6 +18,7 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 - [Evernote](https://www.evernote.com/referral/Registration.action?uid=61101&sig=3dfc71a06515d7731c27f446efff0443) The capture-everything notebook. I've been using this basically since it came out, I love keeping my recipes in it. We both get extra space per month to upload if you use this link.
 - [Seamless](http://seamless.extole.com/a/clk/2C2qlm) An online food ordering service.  We both get $7 off our next order if you use this link.
 - [Foodler](http://www.foodler.com/ref/108865a4/brighton) Another online food ordering service. We both get credit towards an order through their service (or other things too, like cashback or starbucks cards).
+- [Zapier](http://zpr.io/PfDP) A service that can automate actions in one service based on another.  Like [IFTTT](ifttt.com) but on steroids. Still very easy to use. We both get extra tasks executed per month if you use my link.
 
 ## Programs I still need to get the details worked out on:
 - Amazon
