@@ -31,6 +31,7 @@ to record macros in your browser and then loop them in an automated fashion.
 I recorded what the macro looked like to load the /admin/content screen, hit
 the edit link and then hit save on the resulting screen.  This is what that
 looked like:
+
 ````
 TAB T=1
 
