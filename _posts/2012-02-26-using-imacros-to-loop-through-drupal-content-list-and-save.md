@@ -32,7 +32,7 @@ I recorded what the macro looked like to load the /admin/content screen, hit
 the edit link and then hit save on the resulting screen.  This is what that
 looked like:
 
-````csharp
+````powershell
 TAB T=1
 
 URL
@@ -49,14 +49,14 @@ list.  I had to find a looping variable.  Enter the {{!LOOP}} variable.  All I
 had to do was change the position tag of the first instruction to correspond
 to the loop iteration number and my browser was off to the races:
 
-````js
+````perl
 TAB T=1
 
 URL
 
 GOTO=[http://CLIENTDOMAIN/admin/content](http://CLIENTDOMAIN/admin/content)
 
-TAG POS='{{!LOOP}}'  TYPE=A ATTR=TXT:edit
+TAG POS=\{{!LOOP\}}  TYPE=A ATTR=TXT:edit
 
 TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:press-release-node-form ATTR=ID:edit-submit
 ````
