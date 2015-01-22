@@ -20,7 +20,8 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 - [Foodler](http://www.foodler.com/ref/108865a4/brighton) Another online food ordering service. We both get credit towards an order through their service (or other things too, like cashback or starbucks cards).
 - [Zapier](http://zpr.io/PfDP) A service that can automate actions in one service based on another.  Like [IFTTT](ifttt.com) but on steroids. Still very easy to use. We both get extra tasks executed per month if you use my link.
 - [The Tie Bar](http://u21280.sendgrid.org/wf/click?upn=XIPNX9ZC-2FnVc7NHDPX4UZon4tzlVXPudWcgPqS2mQmw-3D_rQ9k54Nntb7RGfVBILTd9ehUTF-2BZjS3sIYzUelF5HgnRN9vIGOWfkKNBc6zWZOFdl9fIQWdRV-2BRufhYEwl8RGPxs12APZsUJ-2BT10UsQrX7Xy2MugPGjG4wxIlUwLJ4C-2FxVpbDE3MEcY-2BsG2t5o0loS6mk1cxPobcfLmiOlUQfxGhKLetAHZTkKG9YbNUfkwIe9ZdwienGR9CNJS7UvzH9i7u3LkKhTWxJ900JNwKCiFTQjdOQ6Plo5a2CsUCCVsyDt9TvRhm5DrBuf7zYUz5YJaxorrWmAanwaYZTDROd-2BGpS-2FylfB66tD3z37-2Fo-2FBwL) This is a great place to get ties.  I used it to get ties for my wedding, but I always enjoy getting their marketing emails and seeing the latest in their selection. I get $10 if you buy $25 worth of stuff through this link.
-- [Namecheap](http://www.namecheap.com/?aff=79588) I get 15% credit back on any DNS, hosting, or SSL purchase you make through them. 
+- [Namecheap](http://www.namecheap.com/?aff=79588) I get 15% credit back on any DNS, hosting, or SSL purchase you make through them.
+- [Personal Capital](http://refer.personalcapital.com/share/wthgf) I get a $10 Amazon gift card if you use this. It does really good mint.com style stats/charts but with a focus on retirement/investment accounts. They make money by hoping that you'll use them to do investing, but there's no pressure to do that.
 
 ## Programs I still need to get the details worked out on:
 - Amazon
