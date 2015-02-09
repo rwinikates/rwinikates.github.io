@@ -130,3 +130,6 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+  # add redirect functionality, per https://help.github.com/articles/redirects-on-github-pages/
+  gems:
+  - jekyll-redirect-from
