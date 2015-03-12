@@ -35,3 +35,4 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 - Skype
 - Zenni Optical
 - [Digital Ocean](https://www.digitalocean.com/referral-program/)
+- VPS.net: http://www.vps.net/blog/2015/03/06/holla-dollar/
