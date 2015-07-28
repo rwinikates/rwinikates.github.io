@@ -11,6 +11,7 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 ## Benefits both of us
 
 - [TOMS](http://friend.toms.com/x/1PkYVu) **$20 discount for you and for me** when you make your first purchase. Awesome shoes, awesome discount.
+- [Automatic](http://fbuy.me/cCANN) **20% discount for you, $20 for me** I use the automatic adapter in my car to log all my trips. The adapter is $100, so the link saves you $20, and credits $20 to me.  There's no ongoing service charge.
 - [Dropbox](https://db.tt/cpeZvlhU) an invaluable service for syncing files between computers.  **You get a bonus 500mb** of space if you use this link (as do I)!
 - [Hulu Plus](http://www.hulu.com/r/4nXfSA) **We both get two free weeks of Hulu Plus**, great for watching current TV on a mobile device or Roku/AppleTV/etc.
 - [Buffer](http://bufferapp.com/r/117341) Allows you to schedule when your social media profiles post, and can also do some analytics.  **We both get an extra slot in our queue** of posts to go out if you use my link.
