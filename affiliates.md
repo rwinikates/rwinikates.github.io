@@ -10,6 +10,7 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 
 ## Benefits both of us
 
+- [Amazon](https://amazon.com/mpr?referralcode=ROBER26937N&ref_=mpr_tr_ss) **$5 discount for you and me** when you use the Amazon mobile app to make a purchase. Everyone buys from amazon. You probably have a smartphone. Why not make your next order on your phone and get a $5 discount?
 - [TOMS](http://friend.toms.com/x/1PkYVu) **$20 discount for you and for me** when you make your first purchase. Awesome shoes, awesome discount.
 - [Automatic](http://fbuy.me/cCANN) **20% discount for you, $20 for me** I use the automatic adapter in my car to log all my trips. The adapter is $100, so the link saves you $20, and credits $20 to me.  There's no ongoing service charge.
 - [Dropbox](https://db.tt/cpeZvlhU) an invaluable service for syncing files between computers.  **You get a bonus 500mb** of space if you use this link (as do I)!
