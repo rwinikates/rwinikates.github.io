@@ -11,7 +11,7 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 ## Benefits both of us
 
 - [Amazon](https://amazon.com/mpr?referralcode=ROBER26937N&ref_=mpr_tr_ss) **$5 discount for you and me** when you use the Amazon mobile app to make a purchase. Everyone buys from amazon. You probably have a smartphone. Why not make your next order on your phone and get a $5 discount?
-- [NetSpend Savings Accounts](http://www.mynetspendcard.com?uref=7580486679) **$20 bonus for you and me** if you open an account and deposit at least $40. This debit card can be fee-free with a monthly deposit of $1 (which you can easily automate through your existing bank), and you can get 5% interest on the paired savings account on balances up to $5,000. More details [here](thefinancebuff.com/netspend-5-percent-savings-account.html)
+- [LastPass](https://lastpass.com/f?26529902) **One month of LastPass premium for both of us** Basically the best password manager out there. 
 - [TOMS](http://friend.toms.com/x/1PkYVu) **$20 discount for you and for me** when you make your first purchase. Awesome shoes, awesome discount.
 - [Zipcar](http://s.zip.cr/Kzj6lfm) **$25 driving credit for you and me** when you sign up for the car-sharing service. Zipcar helps me stay a one-car household.
 - [Automatic](http://fbuy.me/cCANN) **20% discount for you, $20 for me** I use the automatic adapter in my car to log all my trips. The adapter is $100, so the link saves you $20, and credits $20 to me.  There's no ongoing service charge.
