@@ -26,7 +26,7 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 
 
 ## Benefits just me
-
+- Drop Use invite code 7q8iw to get into the drop app and earn 2% back at amazon, whole foods, trader joes, starbucks, target, macys, and many more retailers, details [here](http://www.doctorofcredit.com/drop-app-earn-rebates-top-merchants-linking-credit-card-2-amazon-1-5-uberlyft-1-walmarttarget-many/)
 - [Bing Rewards](https://www.bing.com/explore/rewards?PUBL=REFERAFRIEND&CREA=RAW&rrid=_79589ca1-10bc-670e-5de9-7b39c4e9506c) I have a macro set up to run searches on this every day, gets me a $5 Amazon gift card about once a month. I get points towards my next redemption of an Amazon giftcard. Check out my [scripts repo](http://www.github.com/rwinikates/scripts) for an example. Update 10/2015: the desktop script will get you banned, but the mobile script is still useful. Switching to use bing for desktop searches for real isn't so bad.
 - [Personal Capital](http://refer.personalcapital.com/share/wthgf) I get a $10 Amazon gift card if you use this. It does really good mint.com style stats/charts but with a focus on retirement/investment accounts. They make money by hoping that you'll use them to do investing, but there's no pressure to do that.
 - [Airbnb](www.airbnb.com/c/rwinikates) I get a $35 travel credit when you take your first trip of $75 or more. I also get a $75 credit if you sign up to be a host and host someone.
