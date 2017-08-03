@@ -9,7 +9,7 @@ published: true
 Disclaimer: These are all links that give me some sort of kickback. I use each of these services personally. If you want to use them and help me out at the same time, cool. If not, no big deal.
 
 ## Benefits both of us
-
+- [Airbnb](www.airbnb.com/c/rwinikates) **$40 discount for your first booking** and $20 travel credit to me. Good deal.
 - [Amazon](https://amazon.com/mpr?referralcode=ROBER26937N&ref_=mpr_tr_ss) **$5 discount for you and me** when you use the Amazon mobile app to make a purchase. Everyone buys from amazon. You probably have a smartphone. Why not make your next order on your phone and get a $5 discount?
 - [LastPass](https://lastpass.com/f?26529902) **One month of LastPass premium for both of us** Basically the best password manager out there. 
 - [TOMS](http://friend.toms.com/x/1PkYVu) **$20 discount for you and for me** when you make your first purchase. Awesome shoes, awesome discount.
@@ -29,7 +29,6 @@ Disclaimer: These are all links that give me some sort of kickback. I use each o
 - Drop Use invite code 7q8iw to get into the drop app and earn 2% back at amazon, whole foods, trader joes, starbucks, target, macys, and many more retailers, details [here](http://www.doctorofcredit.com/drop-app-earn-rebates-top-merchants-linking-credit-card-2-amazon-1-5-uberlyft-1-walmarttarget-many/)
 - [Bing Rewards](https://www.bing.com/explore/rewards?PUBL=REFERAFRIEND&CREA=RAW&rrid=_79589ca1-10bc-670e-5de9-7b39c4e9506c) I have a macro set up to run searches on this every day, gets me a $5 Amazon gift card about once a month. I get points towards my next redemption of an Amazon giftcard. Check out my [scripts repo](http://www.github.com/rwinikates/scripts) for an example. Update 10/2015: the desktop script will get you banned, but the mobile script is still useful. Switching to use bing for desktop searches for real isn't so bad.
 - [Personal Capital](http://refer.personalcapital.com/share/wthgf) I get a $10 Amazon gift card if you use this. It does really good mint.com style stats/charts but with a focus on retirement/investment accounts. They make money by hoping that you'll use them to do investing, but there's no pressure to do that.
-- [Airbnb](www.airbnb.com/c/rwinikates) I get a $35 travel credit when you take your first trip of $75 or more. I also get a $75 credit if you sign up to be a host and host someone.
 - [The Tie Bar](http://u21280.sendgrid.org/wf/click?upn=XIPNX9ZC-2FnVc7NHDPX4UZon4tzlVXPudWcgPqS2mQmw-3D_rQ9k54Nntb7RGfVBILTd9ehUTF-2BZjS3sIYzUelF5HgnRN9vIGOWfkKNBc6zWZOFdl9fIQWdRV-2BRufhYEwl8RGPxs12APZsUJ-2BT10UsQrX7Xy2MugPGjG4wxIlUwLJ4C-2FxVpbDE3MEcY-2BsG2t5o0loS6mk1cxPobcfLmiOlUQfxGhKLetAHZTkKG9YbNUfkwIe9ZdwienGR9CNJS7UvzH9i7u3LkKhTWxJ900JNwKCiFTQjdOQ6Plo5a2CsUCCVsyDt9TvRhm5DrBuf7zYUz5YJaxorrWmAanwaYZTDROd-2BGpS-2FylfB66tD3z37-2Fo-2FBwL) This is a great place to get ties.  I used it to get ties for my wedding, but I always enjoy getting their marketing emails and seeing the latest in their selection. I get $10 if you buy $25 worth of stuff through this link.
 - [Namecheap](http://www.namecheap.com/?aff=79588) I get 15% credit back on any DNS, hosting, or SSL purchase you make through them.
 - [Groupon](https://www.groupon.com/visitor_referral/h/82a46eb9-5fa7-44d3-87e3-9965e02a9028) The deals site. You almost certainly have an account already. I get a $10 groupon gift card. 
