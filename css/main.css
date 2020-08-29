@@ -1,0 +1,50 @@
+/* Inspiration from https://themes.gohugo.io/theme/pulp/ */
+:root{
+  --img-size:200px;
+  --img-diameter: calc(var(--img-size) / 2);
+  --text-color: #6b6b6b;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #efefef;
+  color: var(--text-color);
+  text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  line-height: 1.5;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+main {
+  max-width:800px;
+  margin:auto;
+  text-align: center;
+}
+.headshot {
+  max-width:var(--img-size);
+  height:auto;
+}
+.clip-circle {
+  clip-path: circle(var(--img-diameter) at center);
+}
+.intro {
+  font-size:2rem;
+  font-weight:700;
+}
+.social > a {
+  display: inline-block;
+  font-size: 1.25em;
+  padding:.5em;
+  margin:.5em;
+}
+a {
+  text-decoration:none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--text-color);
+}
