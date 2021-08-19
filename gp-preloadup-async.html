@@ -1,0 +1,2091 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preload" href="https://d3rse9xjbp8270.cloudfront.net/at.js" as="script" crossorigin="anonymous">
+    <link rel="preload" href="https://d3rse9xjbp8270.cloudfront.net/at.min.css" as="style">
+    <!-- Custom Head Content -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@greenpeaceusa">
+<meta name="tiwtter:image" content="https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/climatecantwait_social.jpg">
+<meta name="twitter:title" content="Act now before it's too late. Please donate today. - Greenpeace">
+<meta property="og:description" content="I just donated to Greenpeace. Join me and support their important work to protect the environment today!">
+<meta property="og:type" content="Act now before it's too late. Please donate today. - Greenpeace">
+<meta property="og:image" content="https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/climatecantwait_social.jpg">
+<meta property="og:site_name" content="Greenpeace">
+<link rel="shortcut icon" href="https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/favicon.png" type="image/png">
+
+<title>Act now before it's too late. Please donate today. - Greenpeace</title>
+<style type="text/css">
+    #autocomplete {
+    	border: 1px solid;
+    	overflow: hidden;
+    	position: absolute;
+    	z-index: 100;
+    }
+    
+    #autocomplete ul {
+    	list-style: none;
+    	list-style-image: none;
+    	margin: 0;
+    	padding: 0;
+    }
+    
+    #autocomplete li {
+    	background: #fff;
+    	color: #000;
+    	cursor: default;
+    	white-space: pre;
+    	zoom: 1;
+    }
+    
+    html.js input.form-autocomplete {
+    	background-image: url(/misc/throbber-inactive.png);
+    	background-position: 100% center;
+    	background-repeat: no-repeat;
+    }
+    
+    html.js input.throbbing {
+    	background-image: url(/misc/throbber-active.gif);
+    	background-position: 100% center;
+    }
+    
+    html.js fieldset.collapsed {
+    	border-bottom-width: 0;
+    	border-left-width: 0;
+    	border-right-width: 0;
+    	height: 1em;
+    }
+    
+    html.js fieldset.collapsed .fieldset-wrapper {
+    	display: none;
+    }
+    
+    fieldset.collapsible {
+    	position: relative;
+    }
+    
+    fieldset.collapsible .fieldset-legend {
+    	display: block;
+    }
+    
+    .form-textarea-wrapper textarea {
+    	display: block;
+    	margin: 0;
+    	width: 100%;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+    }
+    
+    .resizable-textarea .grippie {
+    	background: #eee url(/misc/grippie.png) no-repeat center 2px;
+    	border: 1px solid #ddd;
+    	border-top-width: 0;
+    	cursor: s-resize;
+    	height: 9px;
+    	overflow: hidden;
+    }
+    
+    body.drag {
+    	cursor: move;
+    }
+    
+    .draggable a.tabledrag-handle {
+    	cursor: move;
+    	float: left;
+    	height: 1.7em;
+    	margin-left: -1em;
+    	overflow: hidden;
+    	text-decoration: none;
+    }
+    
+    a.tabledrag-handle:hover {
+    	text-decoration: none;
+    }
+    
+    a.tabledrag-handle .handle {
+    	background: url(/misc/draggable.png) no-repeat 6px 9px;
+    	height: 13px;
+    	margin: -0.4em 0.5em;
+    	padding: 0.42em 0.5em;
+    	width: 13px;
+    }
+    
+    a.tabledrag-handle-hover .handle {
+    	background-position: 6px -11px;
+    }
+    
+    div.indentation {
+    	float: left;
+    	height: 1.7em;
+    	margin: -0.4em 0.2em -0.4em -0.4em;
+    	padding: 0.42em 0 0.42em 0.6em;
+    	width: 20px;
+    }
+    
+    div.tree-child {
+    	background: url(/misc/tree.png) no-repeat 11px center;
+    }
+    
+    div.tree-child-last {
+    	background: url(/misc/tree-bottom.png) no-repeat 11px center;
+    }
+    
+    div.tree-child-horizontal {
+    	background: url(/misc/tree.png) no-repeat -11px center;
+    }
+    
+    .tabledrag-toggle-weight-wrapper {
+    	text-align: right;
+    }
+    
+    table.sticky-header {
+    	background-color: #fff;
+    	margin-top: 0;
+    }
+    
+    .progress .bar {
+    	background-color: #fff;
+    	border: 1px solid;
+    }
+    
+    .progress .filled {
+    	background-color: #000;
+    	height: 1.5em;
+    	width: 5px;
+    }
+    
+    .progress .percentage {
+    	float: right;
+    }
+    
+    .ajax-progress {
+    	display: inline-block;
+    }
+    
+    .ajax-progress .throbber {
+    	background: transparent url(/misc/throbber-active.gif) no-repeat 0px center;
+    	float: left;
+    	height: 15px;
+    	margin: 2px;
+    	width: 15px;
+    }
+    
+    .ajax-progress .message {
+    	padding-left: 20px;
+    }
+    
+    tr .ajax-progress .throbber {
+    	margin: 0 2px;
+    }
+    
+    .ajax-progress-bar {
+    	width: 16em;
+    }
+    
+    .container-inline div,
+    .container-inline label {
+    	display: inline;
+    }
+    
+    .container-inline .fieldset-wrapper {
+    	display: block;
+    }
+    
+    .nowrap {
+    	white-space: nowrap;
+    }
+    
+    html.js .js-hide {
+    	display: none;
+    }
+    
+    .element-hidden {
+    	display: none;
+    }
+    
+    .element-invisible {
+    	position: absolute !important;
+    	clip: rect(1px 1px 1px 1px);
+    	clip: rect(1px, 1px, 1px, 1px);
+    	overflow: hidden;
+    	height: 1px;
+    }
+    
+    .element-invisible.element-focusable:active,
+    .element-invisible.element-focusable:focus {
+    	position: static !important;
+    	clip: auto;
+    	overflow: visible;
+    	height: auto;
+    }
+    
+    .clearfix:after {
+    	content: ".";
+    	display: block;
+    	height: 0;
+    	clear: both;
+    	visibility: hidden;
+    }
+    
+    * html .clearfix {
+    	height: 1%;
+    }
+    
+    *:first-child+html .clearfix {
+    	min-height: 1%;
+    }
+    
+    ul.menu {
+    	border: none;
+    	list-style: none;
+    	text-align: left;
+    }
+    
+    ul.menu li {
+    	margin: 0 0 0 0.5em;
+    }
+    
+    ul li.expanded {
+    	list-style-image: url(/misc/menu-expanded.png);
+    	list-style-type: circle;
+    }
+    
+    ul li.collapsed {
+    	list-style-image: url(/misc/menu-collapsed.png);
+    	list-style-type: disc;
+    }
+    
+    ul li.leaf {
+    	list-style-image: url(/misc/menu-leaf.png);
+    	list-style-type: square;
+    }
+    
+    li.expanded,
+    li.collapsed,
+    li.leaf {
+    	padding: 0.2em 0.5em 0 0;
+    	margin: 0;
+    }
+    
+    li a.active {
+    	color: #000;
+    }
+    
+    td.menu-disabled {
+    	background: #ccc;
+    }
+    
+    ul.inline,
+    ul.links.inline {
+    	display: inline;
+    	padding-left: 0;
+    }
+    
+    ul.inline li {
+    	display: inline;
+    	list-style-type: none;
+    	padding: 0 0.5em;
+    }
+    
+    .breadcrumb {
+    	padding-bottom: 0.5em;
+    }
+    
+    ul.primary {
+    	border-bottom: 1px solid #bbb;
+    	border-collapse: collapse;
+    	height: auto;
+    	line-height: normal;
+    	list-style: none;
+    	margin: 5px;
+    	padding: 0 0 0 1em;
+    	white-space: nowrap;
+    }
+    
+    ul.primary li {
+    	display: inline;
+    }
+    
+    ul.primary li a {
+    	background-color: #ddd;
+    	border-color: #bbb;
+    	border-style: solid solid none solid;
+    	border-width: 1px;
+    	height: auto;
+    	margin-right: 0.5em;
+    	padding: 0 1em;
+    	text-decoration: none;
+    }
+    
+    ul.primary li.active a {
+    	background-color: #fff;
+    	border: 1px solid #bbb;
+    	border-bottom: 1px solid #fff;
+    }
+    
+    ul.primary li a:hover {
+    	background-color: #eee;
+    	border-color: #ccc;
+    	border-bottom-color: #eee;
+    }
+    
+    ul.secondary {
+    	border-bottom: 1px solid #bbb;
+    	padding: 0.5em 1em;
+    	margin: 5px;
+    }
+    
+    ul.secondary li {
+    	border-right: 1px solid #ccc;
+    	display: inline;
+    	padding: 0 1em;
+    }
+    
+    ul.secondary a {
+    	padding: 0;
+    	text-decoration: none;
+    }
+    
+    ul.secondary a.active {
+    	border-bottom: 4px solid #999;
+    }
+    
+    div.messages {
+    	background-position: 8px 8px;
+    	background-repeat: no-repeat;
+    	border: 1px solid;
+    	margin: 6px 0;
+    	padding: 10px 10px 10px 50px;
+    }
+    
+    div.status {
+    	background-image: url(/misc/message-24-ok.png);
+    	border-color: #be7;
+    }
+    
+    div.status,
+    .ok {
+    	color: #234600;
+    }
+    
+    div.status,
+    table tr.ok {
+    	background-color: #f8fff0;
+    }
+    
+    div.warning {
+    	background-image: url(/misc/message-24-warning.png);
+    	border-color: #ed5;
+    }
+    
+    div.warning,
+    .warning {
+    	color: #840;
+    }
+    
+    div.warning,
+    table tr.warning {
+    	background-color: #fffce5;
+    }
+    
+    div.error {
+    	background-image: url(/misc/message-24-error.png);
+    	border-color: #ed541d;
+    }
+    
+    div.error,
+    .error {
+    	color: #8c2e0b;
+    }
+    
+    div.error,
+    table tr.error {
+    	background-color: #fef5f1;
+    }
+    
+    div.error p.error {
+    	color: #333;
+    }
+    
+    div.messages ul {
+    	margin: 0 0 0 1em;
+    	padding: 0;
+    }
+    
+    div.messages ul li {
+    	list-style-image: none;
+    }
+    
+    fieldset {
+    	margin-bottom: 1em;
+    	padding: 0.5em;
+    }
+    
+    form {
+    	margin: 0;
+    	padding: 0;
+    }
+    
+    hr {
+    	border: 1px solid gray;
+    	height: 1px;
+    }
+    
+    img {
+    	border: 0;
+    }
+    
+    table {
+    	border-collapse: collapse;
+    }
+    
+    th {
+    	border-bottom: 3px solid #ccc;
+    	padding-right: 1em;
+    	text-align: left;
+    }
+    
+    tbody {
+    	border-top: 1px solid #ccc;
+    }
+    
+    tr.even,
+    tr.odd {
+    	background-color: #eee;
+    	border-bottom: 1px solid #ccc;
+    	padding: 0.1em 0.6em;
+    }
+    
+    th.active img {
+    	display: inline;
+    }
+    
+    td.active {
+    	background-color: #ddd;
+    }
+    
+    .item-list .title {
+    	font-weight: bold;
+    }
+    
+    .item-list ul {
+    	margin: 0 0 0.75em 0;
+    	padding: 0;
+    }
+    
+    .item-list ul li {
+    	margin: 0 0 0.25em 1.5em;
+    	padding: 0;
+    }
+    
+    .form-item,
+    .form-actions {
+    	margin-top: 1em;
+    	margin-bottom: 1em;
+    }
+    
+    tr.odd .form-item,
+    tr.even .form-item {
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	white-space: nowrap;
+    }
+    
+    .form-item .description {
+    	font-size: 0.85em;
+    }
+    
+    label {
+    	display: block;
+    	font-weight: bold;
+    }
+    
+    label.option {
+    	display: inline;
+    	font-weight: normal;
+    }
+    
+    .form-checkboxes .form-item,
+    .form-radios .form-item {
+    	margin-top: 0.4em;
+    	margin-bottom: 0.4em;
+    }
+    
+    .form-type-radio .description,
+    .form-type-checkbox .description {
+    	margin-left: 2.4em;
+    }
+    
+    input.form-checkbox,
+    input.form-radio {
+    	vertical-align: middle;
+    }
+    
+    .marker,
+    .form-required {
+    	color: #f00;
+    }
+    
+    .form-item input.error,
+    .form-item textarea.error,
+    .form-item select.error {
+    	border: 2px solid red;
+    }
+    
+    .container-inline .form-actions,
+    .container-inline.form-actions {
+    	margin-top: 0;
+    	margin-bottom: 0;
+    }
+    
+    .more-link {
+    	text-align: right;
+    }
+    
+    .more-help-link {
+    	text-align: right;
+    }
+    
+    .more-help-link a {
+    	background: url(/misc/help.png) 0 50% no-repeat;
+    	padding: 1px 0 1px 20px;
+    }
+    
+    .item-list .pager {
+    	clear: both;
+    	text-align: center;
+    }
+    
+    .item-list .pager li {
+    	background-image: none;
+    	display: inline;
+    	list-style-type: none;
+    	padding: 0.5em;
+    }
+    
+    .pager-current {
+    	font-weight: bold;
+    }
+    
+    #autocomplete li.selected {
+    	background: #0072b9;
+    	color: #fff;
+    }
+    
+    html.js fieldset.collapsible .fieldset-legend {
+    	background: url(/misc/menu-expanded.png) 5px 65% no-repeat;
+    	padding-left: 15px;
+    }
+    
+    html.js fieldset.collapsed .fieldset-legend {
+    	background-image: url(/misc/menu-collapsed.png);
+    	background-position: 5px 50%;
+    }
+    
+    .fieldset-legend span.summary {
+    	color: #999;
+    	font-size: 0.9em;
+    	margin-left: 0.5em;
+    }
+    
+    tr.drag {
+    	background-color: #fffff0;
+    }
+    
+    tr.drag-previous {
+    	background-color: #ffd;
+    }
+    
+    .tabledrag-toggle-weight {
+    	font-size: 0.9em;
+    }
+    
+    body div.tabledrag-changed-warning {
+    	margin-bottom: 0.5em;
+    }
+    
+    tr.selected td {
+    	background: #ffc;
+    }
+    
+    td.checkbox,
+    th.checkbox {
+    	text-align: center;
+    }
+    
+    .progress {
+    	font-weight: bold;
+    }
+    
+    .progress .bar {
+    	background: #ccc;
+    	border-color: #666;
+    	margin: 0 0.2em;
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	border-radius: 3px;
+    }
+    
+    .progress .filled {
+    	background: #0072b9 url(/misc/progress.gif);
+    }
+</style>
+<style type="text/css">
+    * {
+    	box-sizing: border-box;
+    }
+
+    html {
+    	font-size: 62.5%;
+    }
+
+    body {
+    	font-size: 14px;
+    	margin: 0;
+    }
+
+    header a.logo {
+    	line-height: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+    	margin-bottom: 10px;
+    	margin-top: 20px;
+    }
+
+    section.at-inner {
+    	border-radius: 0;
+    }
+
+    p {
+    	margin: 0 0 10px;
+    }
+
+    hr {
+    	margin-top: 20px;
+    }
+
+    footer.nvregion {
+    	margin-top: 0;
+    }
+
+    footer ul.inlineList {
+    	margin-top: 0;
+    }
+
+    .col-sm-3 {
+    	line-height: 24px;
+    	margin: 0 0 10px;
+    	min-height: 1px;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	position: relative;
+    }
+
+    @media screen and (max-width:767px) {
+    	header a.logo {
+    		float: none!important;
+    		display: block;
+    		margin: 0 auto;
+    	}
+    	div.ngp-form.at {
+    		padding: 0 15px;
+    	}
+    }
+
+    @media(min-width:768px) {
+    	.col-sm-3 {
+    		width: 25%;
+    	}
+    	.col-sm-3 {
+    		float: left;
+    	}
+    	.container {
+    		margin: 0 auto;
+    		width: 750px;
+    	}
+    }
+
+    @media(min-width:980px) {
+    	.container {
+    		width: 970px;
+    	}
+    }
+
+    @media(min-width:1200px) {
+    	.container {
+    		width: 1170px;
+    	}
+    }
+
+    div.at {
+    	font-family: 'clear_sansregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    	overflow: visible;
+    }
+
+    div.multistep-layout .FastAction {
+    	border: 0;
+    }
+
+    div.at .HeaderHtml,
+    div.at .FooterHtml {
+    	padding: 1.25rem;
+    	margin: 0;
+    }
+
+    .form-container {
+        padding: 20px 0;
+    }
+
+    .contribute-links-block {
+    	padding: 0 0.625rem;
+    	margin-bottom: 12px;
+    }
+
+    .at a.contribute-links,
+    .at a.contribute-links:hover,
+    .at a.contribute-links:focus {
+    	border-radius: 2px;
+    	background: transparent;
+    	color: #f19362;
+    	display: block;
+    	float: left;
+    	border: 3px solid #f19362;
+    	font-family: 'clear_sansbold', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    	font-size: 24px;
+    	margin-right: 1.25%;
+    	padding: 22px;
+    	position: relative;
+    	text-align: center;
+    	width: 48.75%;
+    }
+
+    .at a.contribute-links:last-of-type {
+    	margin-left: 1.25%;
+    	margin-right: 0;
+    }
+
+    .at a.contribute-links.active {
+    	border-radius: 5px !important;
+    	background: #66CC00;
+    	color: white;
+    	border-color: white;
+    }
+
+    .at a.contribute-links.active:after {
+    	border-top: 0px solid transparent;
+    	border-left: 12px solid transparent;
+    	border-right: 12px solid transparent;
+    	border-bottom: 14px solid white;
+    	bottom: -1px;
+    	content: "";
+    	display: block;
+    	height: 0;
+    	position: absolute;
+    	right: calc(50% - 12px);
+    	width: 0;
+    }
+
+    .contribute-links-block h1 {
+    	margin: 0 0 20px;
+    }
+
+    .contribute-links-block p {
+    	clear: both;
+    }
+
+    .at-fieldset.ContributionInformation {
+        padding-top: 0 !important;
+    }
+
+    .ContributionInformation .at-row {
+    	width: 100%;
+    }
+
+    .ContributionInformation h1 {
+    	margin-top: 10px;
+    }
+
+    div.at .at-radios {
+    	margin-top: 20px;
+    }
+
+    .at.ngp-form form .label-amount {
+    	height: 116px;
+    	margin-bottom: 8px;
+    	margin-right: 2.5%;
+    	padding-top: 41px;
+    	width: 48.75%;
+    }
+
+    .at.ngp-form form .label-amount.active {
+    	color: white !important;
+    }
+
+    .at.ngp-form form .label-amount:nth-of-type(2n),
+    .at.ngp-form form .label-amount.label-otheramount {
+    	margin-right: 0;
+    }
+
+    body.recurring-enabled.recurring-toggle .at.ngp-form form .label-amount:nth-of-type(2n-1) {
+    	margin-right: 2.5%;
+    }
+
+    .at.ngp-form form .at-radios>.label-amount:nth-of-type(6):not(.label-otheramount) {
+    	display: none !important;
+    }
+
+    .at.ngp-form form .label-amount.label-otheramount {
+    	width: 59%;
+    }
+
+    .at.ngp-form form .label-amount input {
+    	height: 116px;
+    }
+
+    .at.ngp-form form .label-amount>a {
+    	border-radius: 2px !important;
+    	background-color: transparent;
+    	border: 3px solid #f19362;
+    	height: 116px;
+    }
+
+    div.at form .label-amount {
+    	text-shadow: none;
+    	color: #f19362;
+    }
+
+    div.at form .label-amount input+.label-otheramount-prefix,
+    div.at form .label-amount input:required+.label-otheramount-prefix {
+    	padding-top: 41px;
+    }
+
+    div.multistep-layout div.at-recurring {
+    	float: left;
+    	position: relative;
+    	top: 25px;
+    }
+
+    div.at-recurring .IsRecurring,
+    div.at-recurring .SelectedFrequency {
+    	font-weight: bold;
+    }
+
+    div.at input[type="checkbox"]:checked+span:before,
+    div.at input[type="checkbox"]:hover+span:before,
+    div.at input[type="checkbox"]:focus+span:before {
+    	background-color: white;
+    	border-color: black;
+    }
+
+    div.at input[type="checkbox"]:focus+span:before {
+    	box-shadow: 0 0 4px 0 black;
+    }
+
+    div.at input[type="checkbox"]:checked+span:after {
+    	background: white;
+    	color: black;
+    	transform: scale(2);
+    }
+
+    div.at input[type="checkbox"]+span:after,
+    div.at-recurring .at-check input[type="checkbox"]+span:after {
+    	background: white;
+    	font-size: 11px;
+    	line-height: .3;
+    	left: 7px;
+    	height: 0;
+    	position: absolute;
+    	top: 2px;
+    	font-weight: normal;
+    }
+
+    div.multistep-layout .at-form-submit,
+    div.at-form-submit {
+    	float: right;
+    	width: 100%;
+    	margin: 0;
+    }
+
+    div.step-prevNext {
+    	padding: 0;
+    }
+
+    div.multistep-layout .step-prevNext {
+    	padding: 0 .625rem 1.25rem;
+    }
+
+    div.step-prevNext .next {
+    	width: 50%;
+    }
+
+    div.step-prevNext .prev {
+    	float: left;
+    }
+
+    div.at form .label-amount input[type="radio"]:checked+a {
+    	background-color: #66CC00;
+    	border: 3px solid #66CC00;
+    }
+
+    div.at form .label-amount:hover>a {
+    	border-color: #f19362;
+    	background-color: transparent;
+    	opacity: .8;
+    }
+
+    div.at form .label-amount input[required] {
+    	border-radius: 2px !important;
+    	background-color: #66CC00;
+    	border: 1px solid #66CC00;
+    }
+
+    div.at .at-step.valid a:before,
+    div.at .at-step.valid>*:before {
+    	background-color: #66CC00;
+    }
+
+    div.at .at-step.active a:before,
+    div.at .at-step.active.valid>*:before {
+    	background-color: #e14a01;
+    }
+
+    div.at .btn-at-primary:not(.at-tweet-button) {
+        cursor: pointer;
+    	font-size: 24px;
+    	font-family: 'clear_sansbold', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    	margin: 0;
+    	padding: 19px 24px;
+    	width: 100%;
+    }
+
+    .onlineaction-type-contribution div.at .btn-at-primary,
+    .onlineaction-type-contribution div.at .btn-at-primary:hover {
+    	background-color: #66CC00;
+    }
+
+    div.at .btn-at-primary {
+    	background-color: #e14a01;
+    }
+
+    div.at .btn-at-primary:hover,
+    div.at .hover.btn-at-primary {
+    	background-color: #e14a01;
+    	opacity: .8;
+    }
+
+    .multistep-layout.at input[type="submit"] {
+    	width: 0;
+    }
+
+    @media (max-width:560px) {
+    	div.at.ngp-form.multistep-layout div.at-recurring {
+    		margin-bottom: 0;
+    		/* width: 100%; */
+    	}
+        .at-check.CoverCostsAmount {
+            display:block !important;
+        }
+        .CoverCostsAmount {
+            display:block;
+        }
+    	.at.ngp-form .at-form-submit .step-prevNext .prevNext.next {
+    		width: 100%;
+    	}
+    }
+
+    @media(min-width:360px) {
+    	.at.ngp-form form .label-amount {
+    		margin-bottom: 10px;
+    	}
+    }
+
+    @media(min-width:480px) {
+    	.at.ngp-form form .label-amount {
+    		margin-bottom: 12px;
+    	}
+    }
+
+    @media(min-width:600px) {
+    	.at.ngp-form form .label-amount {
+    		margin-bottom: 15px;
+    	}
+    }
+
+    @media(max-width:639px) {
+    	div.at form .label-amount {
+    		width: 48.75% !important;
+    	}
+    }
+
+    @media(min-width:640px) {
+    	.at.ngp-form form .label-amount {
+    		width: 18%;
+    	}
+    	.at.ngp-form form .label-amount:nth-of-type(2n) {
+    		margin-right: 2.5%;
+    	}
+    	.at.ngp-form form .label-amount:nth-child(4n+4) {
+    		margin-right: 2.5%;
+    	}
+    	.at.ngp-form form .label-amount:nth-of-type(5),
+    	body.recurring-enabled.recurring-toggle .at.ngp-form form .at-radios>.label-amount:nth-of-type(5),
+    	body.recurring-enabled.recurring-toggle .at.ngp-form form .monthlyAmounts>.label-amount:nth-of-type(5) {
+    		margin-right: 0;
+    	}
+    }
+
+    @media(max-width:1199px) {
+    	.field-type-image {
+    		text-align: center;
+    	}
+    	img {
+    		margin: 0 auto;
+    		width: auto;
+    	}
+    }
+
+    @media(max-width:767px) {
+    	.at a.contribute-links,
+    	.at a.contribute-links:hover,
+    	.at a.contribute-links:focus {
+    		line-height: 24px;
+    		padding: 22px 5px;
+    	}
+    	.readmore {
+    		display: none;
+    	}
+    }
+
+    @media(min-width:768px) {
+    	.form-text {
+    		padding-left: 0;
+    	}
+    	.embedded-form {
+    		padding-right: 0;
+    	}
+    }
+
+    .at.ngp-form fieldset {
+    	margin: 0;
+    }
+
+    .at.ngp-form fieldset.ContactInformation {
+    	min-width: 0;
+    }
+
+    .at.ngp-form fieldset legend {
+    	width: auto;
+    }
+
+    .at.ngp-form a.readmore-link {
+    	color: #e14a01;
+    	padding: 10px;
+    }
+
+    header.HeaderHtml>.readmore {
+    	margin-bottom: 10px;
+    }
+
+    .at-markup.HeaderHtml {
+        padding-top: 0 !important;
+    }
+
+    html {
+    	font-size: 100%;
+    }
+
+    body {
+    	border-top: 4px solid #6c0;
+    	color: #575757;
+    	font-family: 'clear_sansregular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    	font-weight: 400;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    div.at h1,
+    div.at h2,
+    div.at h3,
+    div.at h4,
+    div.at h5,
+    div.at h6 {
+    	font-family: 'clear_sansbold', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+
+    a:hover {
+    	opacity: .8;
+    	text-decoration: none;
+    }
+
+    header.header {
+    	background: #dbdbdb;
+    	background: -moz-linear-gradient(top, #dbdbdb 0%, #dbdbdb 50%, #efefef 51%, #efefef 100%);
+    	background: -webkit-linear-gradient(top, #dbdbdb 0%, #dbdbdb 50%, #efefef 51%, #efefef 100%);
+    	background: linear-gradient(to bottom, #dbdbdb 0%, #dbdbdb 50%, #efefef 51%, #efefef 100%);
+    	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbdbdb', endColorstr='#efefef', GradientType=0);
+    	height: 120px;
+    	margin: 0;
+    }
+
+    div.navbar-header {
+    	float: none;
+    }
+
+    header a.logo {
+    	background: white;
+    	display: block;
+    	padding: 21.5px 23.5px;
+    	width: 313px;
+    }
+
+    header a.logo img {
+    	max-width: 100%;
+    	width: auto;
+    }
+
+    section.navigation,
+    .head-top {
+    	display: none;
+    }
+
+    section.navigation .container {
+    	width: auto;
+    }
+
+    .icon-bar {
+    	background: #fff;
+    	box-shadow: none;
+    }
+
+    .nav>li>a:hover,
+    .nav>li>a:focus,
+    .nav li.open a,
+    .nav li.open a:hover,
+    .nav li.open a:focus,
+    .dropdown-menu>.active>a,
+    .dropdown-menu>.active>a:hover,
+    .dropdown-menu>.active>a:focus {
+    	background: transparent;
+    }
+
+    .nav .caret {
+    	display: none;
+    }
+
+    a.btn {}
+
+    audio,
+    video {
+    	width: 100%;
+    }
+
+    .media-youtube-video {
+    	height: 0;
+    	padding-bottom: 56.25%;
+    	padding-top: 25px;
+    	position: relative;
+    }
+
+    .media-youtube-video iframe {
+    	border: 0;
+    	height: 100%;
+    	left: 0;
+    	position: absolute;
+    	top: 0;
+    }
+
+    .more-link {
+    	float: right;
+    	text-align: left;
+    }
+
+    figure.field-type-image {
+    	float: none;
+    }
+
+    .header .container {
+    	padding: 0;
+    }
+
+    .main-container.nvregion {
+    	padding: 0;
+    }
+
+    .main-container>.container {
+    	background: white;
+    	padding: 30px 0 0 0;
+    }
+
+    .footer .container {
+    	background: white;
+    }
+
+    div.panel-body {
+    	padding: 0;
+    }
+
+    div.container-inline-date .date-padding {
+    	float: none;
+    }
+
+    .kicker {
+    	background: url('https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/THEME%20FILES/texture.jpg');
+    	padding: 15px;
+    	margin-top: 15px;
+    }
+
+    .onlineaction-type-contribution .kicker {
+    	display: block;
+    }
+
+    body.c3 .c3-donate-footer-text {
+    	display: block;
+    }
+
+    body.c4 .c4-donate-footer-text {
+    	display: block;
+    }
+
+    .footer-text {
+    	color: #ababab;
+    	font-size: 14px;
+    	margin-top: 30px;
+    }
+
+    .footer-text a {
+    	color: #ababab;
+    	text-decoration: underline;
+    }
+
+    .footer-text a:hover {
+    	color: #6a8d9c;
+    }
+
+    .footer-text .col-sm-3 {
+    	padding-left: 0;
+    }
+
+    .footer {
+    	color: #ababab;
+    	font-size: 14px;
+    	padding: 0;
+    }
+
+    .footer .block {
+    	padding: 15px 0;
+    	text-align: left;
+    }
+
+    .footer-menu ul {
+    	text-align: left;
+    	padding-left: 15px;
+    }
+
+    .footer-menu li {
+    	display: inline-block;
+    	list-style: none;
+    }
+
+    .footer a,
+    .footer-menu li a {
+    	color: #ababab;
+    	margin-right: 23px;
+    	text-decoration: underline;
+    }
+
+    .footer-menu li a:hover {
+    	color: #6a8d9c;
+    }
+
+    .disclaimer {
+    	border: 1px solid black;
+    	color: black;
+    	display: inline-block;
+    	padding: 20px 30px;
+    }
+
+    .contribute-links-block {
+        margin-bottom: 0 !important;
+    }
+    .form-item.form-type-radios.form-item-selectamount {
+        margin-top: 0;
+    }
+    .at .SelectAmount .at-radios {
+        margin-top: 10px;
+    }
+    .contribute-links-block h1 {
+        margin-top: 20px;
+    }
+    .at header.at-title {
+        margin-bottom: 20px;
+    }
+    .at form .label-amount input[type="radio"] {
+        width: 1px !important;
+    }
+    .at-check.CoverCostsAmount {
+        padding-top:7px;
+    }
+</style>
+
+<style type="text/css">
+    .bg-overlay,
+    .modal-overlay {
+    	display: none;
+    	position: fixed;
+    	top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+    }
+    
+    .bg-overlay {
+    	background-color: black;
+    	opacity: .4;
+    	z-index: 99
+    }
+    
+    .modal-overlay {
+    	z-index: 100;
+    	align-items: center;
+    	justify-content: center;
+    	overflow-y: scroll;
+    	pointer-events: none;
+    }
+    
+    .modal-window {
+    	pointer-events: all;
+    	position: relative;
+    	width: 98%;
+    	max-width: 400px;
+    	border-radius: 2px;
+    	background-color: white;
+    	padding: 30px 20px 20px 20px;
+    	box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+    }
+    
+    .exit-intent .modal-window {
+    	padding-top: 20px;
+    }
+    
+    .exit-intent .exit-popup-hero {
+    	width: 100%;
+    }
+    
+    .modal-header {
+    	font-size: 24px;
+    	text-align: center;
+    	margin-bottom: 10px;
+    	margin-top: 5px;
+    	color: #6c0;
+    }
+    
+    .modal-subhead {
+    	text-align: center;
+    	margin-bottom: 24px;
+    	margin-top: 5px
+    }
+    
+    .copy-module {
+    	background-color: lightgray;
+    	border: 2px solid lightgray;
+    	border-radius: 2px;
+    	margin-bottom: 10px;
+    }
+    
+    .copy-module:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+    }
+    
+    .copyInput,
+    .copyButton {
+    	box-sizing: border-box;
+    	float: left;
+    	height: 40px;
+    }
+    
+    .copyInput {
+    	width: 80%;
+    	border: none;
+    	font-size: 15px;
+    	padding: 10px;
+    	color: gray;
+    }
+    
+    .copyButton {
+    	width: 20%;
+    	color: gray;
+    	font-family: sans-serif;
+    	text-align: center;
+    	line-height: 40px;
+    	background-color: lightgray;
+    	cursor: pointer;
+    }
+    
+    .copyButton:hover {
+    	opacity: .9;
+    }
+    
+    .modal-close {
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	color: gray;
+    	background-color: white;
+    	text-align: center;
+    	line-height: 42px;
+    	border-radius: 0% 0% 0% 20px;
+    	width: 40px;
+    	height: 40px;
+    	font-size: 18px;
+    }
+    
+    .modal-close:hover {
+    	color: darkgray;
+    	cursor: pointer;
+    }
+    
+    .share-buttons:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+    }
+    
+    .shareButton {
+    	box-sizing: border-box;
+    	width: 49%;
+    	margin: 0px !important;
+    	float: left;
+    	padding: 20px 20px;
+    	text-align: center;
+    	color: white;
+    	font-family: sans-serif;
+    	border-radius: 2px;
+    	cursor: pointer;
+    }
+    
+    .shareButton:hover {
+    	opacity: .85;
+    }
+    
+    .shareButton:last-child {
+    	margin-left: 2% !important;
+    }
+    
+    .copySuccess-holder {
+    	position: absolute;
+    	bottom: -60px;
+    	left: 0px;
+    	width: 100%;
+    	height: 40px;
+    	text-align: center;
+    	display: none;
+    }
+    
+    .copySuccess {
+    	display: inline;
+    	color: white;
+    	font-weight: 600;
+    	letter-spacing: .09em;
+    	background-color: #6c0;
+    	box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    	margin: 0 auto;
+    	text-align: center;
+    	border-radius: 20px;
+    	padding: 10px 20px;
+    	text-transform: uppercase;
+    	font-family: sans-serif;
+    	font-size: 12px;
+    }
+    
+    .one-time-donation-button {
+    	display: block;
+    	margin: 0 auto;
+    	text-align: center;
+    	padding: 10px 20px;
+    	background: #66cc00;
+    	color: white;
+    	font-size: 16px;
+    	font-weight: 800;
+    	cursor: pointer;
+    	max-width: 50%;
+    	text-decoration: none;
+    }
+    
+    #advocacy-bg-overlay,
+    .advocacy-modal-overlay {
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    	position: fixed;
+    	top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+    }
+    
+    #advocacy-bg-overlay {
+    	background-image: url('https://engage.us.greenpeace.org/sites/default/files/advocacy-share-background.jpg');
+    	background-size: cover;
+    	background-position: center center;
+    	background-color: #66cc00;
+    	z-index: 99;
+    }
+    
+    .advocacy-modal-overlay {
+    	z-index: 100;
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-webkit-box-align: center;
+    	-ms-flex-align: center;
+    	align-items: center;
+    	-webkit-box-pack: center;
+    	-ms-flex-pack: center;
+    	justify-content: center;
+    	overflow-y: scroll;
+    	pointer-events: none;
+    }
+    
+    .advocacy-modal-overlay a {
+    	text-decoration: none;
+    }
+    
+    .modal-card {
+    	position: relative;
+    	-webkit-transform-style: preserve-3d;
+    	transform-style: preserve-3d;
+    	-webkit-transition: -webkit-transform 1s;
+    	transition: -webkit-transform 1s;
+    	-o-transition: transform 1s;
+    	transition: transform 1s;
+    	transition: transform 1s, -webkit-transform 1s;
+    	width: 340px;
+    }
+    
+    .modal-card::after {
+    	content: "";
+    	display: table;
+    	clear: both;
+    }
+    
+    .modal-card .modal-window {
+    	margin: 0;
+    	-webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+    	display: block;
+    	position: absolute;
+    	bottom: 100%;
+    	-webkit-backface-visibility: hidden;
+    	backface-visibility: hidden;
+    	width: 340px;
+    	pointer-events: all;
+    	border-radius: 2px;
+    	background-color: white;
+    	padding: 30px 20px 20px 20px;
+    	-webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+    	box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+    	-webkit-transform-origin: center center;
+    	-ms-transform-origin: center center;
+    	transform-origin: center center;
+    }
+    
+    .modal-card .back {
+    	-webkit-transform: rotateY(180deg);
+    	transform: rotateY(180deg);
+    }
+    
+    .modal-card.flipped {
+    	-webkit-transform: rotateY(-180deg);
+    	transform: rotateY(-180deg);
+    }
+    
+    .shareButton.-yesNo {
+    	border: none;
+    	font-size: 18px;
+    }
+    
+    #yesBtn {
+    	background-color: #66cc00;
+    	color: white;
+    	width: 59%;
+    }
+    
+    #noBtn {
+    	color: dimgray;
+    	width: 39%;
+    }
+    
+    .continue-link {
+    	text-align: center;
+    	cursor: pointer;
+    	padding-top: 14px;
+    	color: darkgray;
+    }
+    
+    .at-recurring {
+    	top: auto !important;
+    	margin-bottom: auto;
+    }
+</style>
+
+    <script type="application/javascript">
+    var bodyElement = document.getElementsByTagName("HTML")[0];
+    bodyElement.classList.add("onlineaction-type-contribution");
+</script>
+<!-- Google Tag Manager Header -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNNP28');</script>
+<!-- End Google Tag Manager Header -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MF5BX25');
+</script>
+    <!-- NGPVAN Head Content -->
+        <script type="text/javascript">
+        // This code is provided by Microsoft
+        // ReSharper disable VariableUsedInInnerScopeBeforeDeclared
+        // ReSharper disable StatementIsNotTerminated
+        // ReSharper disable VariableUsedOutOfScope
+        var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(n){var o={config:n,initialize:!0},t=document,e=window,i="script";setTimeout(function(){var e=t.createElement(i);e.src=n.url||"https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",t.getElementsByTagName(i)[0].parentNode.appendChild(e)});try{o.cookie=t.cookie}catch(e){}function a(n){o[n]=function(){var e=arguments;o.queue.push(function(){o[n].apply(o,e)})}}o.queue=[],o.version=2;for(var s=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];s.length;)a("track"+s.pop());var r="Track",c=r+"Page";a("start"+c),a("stop"+c);var u=r+"Event";if(a("start"+u),a("stop"+u),a("addTelemetryInitializer"),a("setAuthenticatedUserContext"),a("clearAuthenticatedUserContext"),a("flush"),o.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4},!(!0===n.disableExceptionTracking||n.extensionConfig&&n.extensionConfig.ApplicationInsightsAnalytics&&!0===n.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){a("_"+(s="onerror"));var p=e[s];e[s]=function(e,n,t,i,a){var r=p&&p(e,n,t,i,a);return!0!==r&&o["_"+s]({message:e,url:n,lineNumber:t,columnNumber:i,error:a}),r},n.autoExceptionInstrumented=!0}return o}(
+            {
+                instrumentationKey: "def53ae9-b7c9-41b7-abab-9c939b304095",
+                enableAjaxErrorStatusText: true,
+                enableRequestHeaderTracking: true,
+                enableResponseHeaderTracking: true
+            }
+        );
+        window[aiName] = aisdk;
+        // ReSharper restore StatementIsNotTerminated
+        // ReSharper restore VariableUsedInInnerScopeBeforeDeclared
+        aisdk.queue.push(function () {
+            aisdk.addTelemetryInitializer(function (envelope) {
+                var telemetryItem = envelope.data;
+                var telemetryBaseData = envelope.baseData;
+
+                // ignore fullstory requests
+                if (telemetryBaseData.target && telemetryBaseData.target.indexOf("fullstory") > -1) {
+                  return false;
+                }
+
+                // remove auth from req headers
+                if (telemetryBaseData.properties && telemetryBaseData.properties.requestHeaders) {
+                    var requestHeaders = telemetryBaseData.properties.requestHeaders;
+                    Object.keys(requestHeaders).forEach(function (key) {
+                        if (key.toLowerCase() === "authorization") {
+                            delete requestHeaders[key];
+                        }
+                    });
+                }
+                
+                // Set custom properties
+                telemetryItem["Application"] = 'Forms-prod';
+                // For custom events, make sure we have the URL of the current page	
+                if (envelope.baseType == "EventData" || envelope.baseType == "RemoteDependencyData") {
+                    telemetryItem["Location"] = telemetryItem["Location"] || window.location.href;
+                }
+
+                return true;
+            });
+        });
+        aisdk.trackPageView({});
+    </script>
+
+    <script src="/js/script-error?v=LR3iM4M7kAES0Kfs-kdOEFlJ6eRhSmwTVMRMKnRLIxs1"></script>
+
+</head>
+<body >
+    <!-- NGPVAN Body Content -->
+        <!-- NGP VAN Convergence GTM Container -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PM473M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PM473M');</script>
+    <!-- End Google Tag Manager -->
+
+    <div class="content ngp-content">
+        <!-- Custom Body Content -->
+        <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNNP28"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF5BX25"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="header secondary nvregion clearfix">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="logo navbar-btn" href="https://www.greenpeace.org/usa/" title="Home">
+        <img src="https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/THEME%20FILES/greenpeace-logo-green.svg" alt="Home">
+      </a>
+    </div>
+  </div>
+</header>
+<div class="form-container">
+    <section>
+        
+
+<div class="ngp-form"
+     data-form-url="https://secure.everyaction.com/v1/Forms/fmK9DG-d0E6dUOLXutRiWw2"
+     data-fastaction-endpoint="https://fastaction.ngpvan.com"
+     data-inline-errors="true"
+     data-fastaction-nologin="true"
+     data-databag-endpoint="https://profile.ngpvan.com"
+     data-databag="everybody"
+     data-databag-sync-domains='["https://secure.everyaction.com","https://secure.ngpvan.com","https://engage.us.greenpeace.org"]'
+     data-mobile-autofocus="true">
+</div>
+
+
+    </section>
+</div>
+
+    <section class="kicker secondary nvregion clearfix">
+    <div class="container">
+        <div class="region region-kicker">
+            <div id="block-block-6" class="block block-block c4-donate-footer-text">
+                <p>Greenpeace, Inc. is a non-profit, tax-exempt, 501(c)(4) organization. Donations to Greenpeace, Inc. are not tax-deductible.</p>
+            
+                <div class="col-sm-3"><strong>Donate by phone:</strong><br />
+                    1-800-722-6995<br />
+                    Mon-Fri 9:30-5:00PM PST</div>
+            
+                <div class="col-sm-3"><strong>Donate by Mail:</strong><br />
+                <a href="https://www.greenpeace.org/usa/wp-content/uploads/2020/05/Greenpeace_Donation_Form_2020.pdf" target="_blank">Download and print a donation form</a><br />
+                    Mail to:<br />
+                    Greenpeace<br />
+                    702 H Street NW, Suite 300<br />
+                    Washington, DC 20001</div>
+            
+                <div class="col-sm-3"><strong>Other ways to give:</strong><br />
+                <a href="https://greenpeacefund.org/ways-to-give/" target="_blank">Tax deductible giving, estates and bequests</a></div>
+            
+                
+</section>
+
+
+<footer class="footer nvregion quinary clearfix">
+  <div class="container">
+    <div class="region region-footer">
+      <div id="block-block-5" class="block block-block footer-menu">
+        <div class="content">
+          <ul class="inlineList">
+            <li><a href="https://www.greenpeace.org/usa/copyright/">Copyright</a></li>
+            <li><a href="https://www.greenpeace.org/usa/privacy-policy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://nvlupin.blob.core.windows.net/images/van/TSM/TSMGP/1/55678/images/THEME%20FILES/jquery.min.js"></script>
+<script type="application/javascript">
+    var monthlyAmounts = [15,25,35,45,55];
+</script>
+<script type="application/javascript">
+    jQuery(document).ready(function($) {
+        $("body").on("focusin",".label-amount.label-otheramount", function() {
+            $(".label-amount").removeClass("active");
+            $(this).addClass("active");
+        });
+        $("body").on("click", ".label-amount", function() {
+            $(".label-amount").removeClass("active");
+            $(this).addClass("active");
+            var unchecked = $('.label-amount input[type="radio"]:not(:checked)');
+            unchecked.parents("label").removeClass("active");
+        });
+    });
+    
+    jQuery(window).load(function($) {
+      if (document.readyState == 'complete') {
+        jQuery(document).ready(function($) {
+          var unchecked = $('.label-amount input[type="radio"]:not(:checked)');
+          unchecked.parents("label").removeClass("active");
+        });
+      }
+    });
+    
+    var setColors = function() {
+      jQuery(document).ready(function($) {
+        $('.label-amount').addClass("active");
+            setTimeout(function(){
+              var unchecked = $('.label-amount input[type="radio"]:not(:checked)');
+              unchecked.parents("label").removeClass("active");
+            }, 200);
+      });
+    }
+    var nvtag_callbacks = nvtag_callbacks || {};
+    nvtag_callbacks.postRender = nvtag_callbacks.postRender || [];
+    nvtag_callbacks.postRender.push(setColors);
+</script>
+
+<script>
+    jQuery(document).ready(function($) {
+    
+    });
+    
+    var myPostRender = function(vals) {
+    	(function ($) {
+    		/* there's a lot going on here. Basically, we want to make sure that on donation pages we add a monthly toggle if recurring is turned on - and we add lots of defaults to that monthly toggle. But if it's recurring only, we don't actually add anything, since you don't want the toggle */
+    		 
+    		if ($("html").hasClass("onlineaction-type-contribution")) { // Test #1: make sure we only have donation pages
+    		    $("html").removeClass("onlineaction-type-contribution");
+    			var formvals; // some stuff Bill setup
+    			formvals = vals; // ditto
+    			// console.log(formvals);
+    			
+    			$.each(formvals.form_definition.form_elements, function(i,obj) { // iterate through the items in the form_elements array
+    				
+    				if (obj.name === "ContributionInformation") { // and look for the "ContributionInformation" object
+    					// console.log("ok good, we found the ContributionInformation object");
+    					// if this passes but the below logic doesn't, it means the page is a one-time donation only page (and we don't load the toggle)
+    					
+    					$.each(obj.children, function(j,child) { // now we're going to look for the recurring stuff
+    						if (child.name === "IsRecurring" && child.value === true) { // if we see that it's a recurring only page, we're good! Nothing else needed
+    							// console.log("This is a recurring only page");
+    							$("body").addClass("recurring-enabled recurring-only");
+    						} else if (child.name === "IsRecurring" && child.required === false) { // but if it's only optional, then show the toggles, etc. - all the rest of the stuff Bill wrote
+    							// console.log("This is a recurring page, but also onetime options are allowed");
+    							$("body").addClass("recurring-enabled recurring-toggle");
+    							
+    							if($("html").hasClass("spanish-content")) {
+    							    $('<div class="contribute-links-block"><h1>Donation Amount</h1><a href="#" class="contribute-links monthly">Donación Mensual</a><a href="#" class="contribute-links onetime">Donación Única</a><p></p></div>').insertBefore('.at-fieldset.ContributionInformation .at-legend');
+    							} else {
+    							    $('<div class="contribute-links-block"><h1>Donation Amount</h1><a href="#" class="contribute-links monthly">Monthly Donation</a><a href="#" class="contribute-links onetime">One-time Donation</a><p></p></div>').insertBefore('.at-fieldset.ContributionInformation .at-legend');
+    							}
+    							
+    							//add monthly button options
+    							var monthly = '<div class="monthlyAmounts">';
+    							// var monthlyAmounts = [15,25,35,45,55]; this is set in JSInjector now - there's a default, and optional overrides
+    							for (i=0; i < monthlyAmounts.length; i++){
+    								var newElement = '<label class="label-amount " title="$' + monthlyAmounts[i] + '"><input name="SelectAmount" type="radio" value="' + monthlyAmounts[i] + '.00">$' + monthlyAmounts[i] + '<a></a></label>';
+    								monthly = monthly + newElement;
+    							}
+    							monthly = monthly + '</div>';
+    							$('.SelectAmount .at-radio .at-radios').prepend(monthly);
+    							
+    							//test query string for recurring
+    							function getParameterByName(name) {
+    								url = window.location.href;
+    								name = name.replace(/[\[\]]/g, "\\$&");
+    								var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    									results = regex.exec(url);
+    								if (!results) return null;
+    								if (!results[2]) return '';
+    								return decodeURIComponent(results[2].replace(/\+/g, " "));
+    							}
+    							
+    							if ($('.at-recurring .IsRecurring input[type="checkbox"]').prop("checked") || getParameterByName('r') == "true" ) { // determine active class based on initial monthly checkbox status
+    								$('.monthly').addClass('active');
+    								// console.log("recurring was checked");
+    								$('.monthlyAmounts').show();
+    								$('div.at form .at-radios > .label-amount').hide(); // if it is recurring on load, hide the non-recurring options
+    								$('div.at form .at-radios > .label-otheramount').show(); // but still show the other amount
+    							} else {
+    								$('.onetime').addClass('active');
+    								// console.log("recurring was not checked");
+    								$('.monthlyAmounts').hide();
+    							}				
+    
+    							$('.at-recurring .IsRecurring input[type="checkbox"]').change(function(){ // if checkbox changes, update buttons and amounts
+    								$('.monthly').toggleClass('active');
+    								$('.monthlyAmounts').toggle();
+    								$('.onetime').toggleClass('active');
+    								$('div.at form .at-radios > .label-amount').toggle();
+    								$('div.at form .at-radios > .label-otheramount').show();
+    								$('input[name=SelectAmount]').prop('checked', false); // also uncheck all radio buttons if the toggle is chosen
+                                    $('input.edit-otheramount').val(''); // remove any value from the other field
+    							});
+    							
+    							$('.contribute-links').on('click', function(e){ // toggle active class when buttons are clicked and update checkbox
+    								e.preventDefault();
+    								if ( !($(this).hasClass('active')) ){
+    									$('div.at form .at-radios > .label-amount').removeClass('active');
+    									var recurringCheckBox = $('.at-recurring .IsRecurring input[type="checkbox"]');
+                                        if (recurringCheckBox[0]) recurringCheckBox[0].click();
+    								}
+    							});
+    							
+    						} // end the else if
+    					}); // end the each that is looking for the recurring stuff
+    				} // end the if that was looking for the ContributionInformation object
+    			});	// end the each that was iterating through the array
+    		} // end logic for "only show on donation pages"
+    
+    		/* took this chunk out since Greenpeace no longer wants to force a Read More wrapper on all pages
+    		
+    		$(".at.ngp-form header.HeaderHtml").wrapInner("<div class='readmore'></div>"); // put the readmore wrapping div around all header text
+    		
+    		*/
+    		
+    		if ($(window).width() < 767) {
+    			$('.readmore').after('<a href="#" class="readmore-link">Read More</a>');//toggle read more
+    		}		
+    		$('.readmore-link').on('click', function(e){
+    			e.preventDefault();
+    			$('.readmore').toggle();
+    			if ( $('.readmore-link').text() == 'Read More' ){
+    				$('.readmore-link').text('Hide');
+    			}
+    			else if ( $('.readmore-link').text() == 'Hide' ){
+    				$('.readmore-link').text('Read More');
+    			}
+    		});
+    
+    	}(jQuery));
+    };
+    var nvtag_callbacks = nvtag_callbacks || {};
+    nvtag_callbacks.postRender = nvtag_callbacks.postRender || [];
+    nvtag_callbacks.postRender.push(myPostRender);
+</script>
+<script type="application/javascript">
+    jQuery(document).ready(function($) {
+    
+    });
+    
+    var addedAddressInfo = false;
+    
+    var addressDisclaimer = function() {
+      jQuery(document).ready(function($) {
+        $('.label-amount').addClass("active");
+        if (!addedAddressInfo) {
+            if($("html").hasClass("spanish-content")) {
+                $('<p class="at-markup international-address-disclaimer SmsLegalDisclaimer at-legal" style="margin-left:0.625em"><strong>Direcciones Internacionales:</strong> En estos momentos no podemos aceptar pagos de direcciones internacionales. Por favor considera hacer una donación a <a href="http://www.greenpeace.org/international/en/supportus/" target="_blank">Greenpeace Internacional.</a></p>').insertAfter('.onlineaction-type-contribution .at-row.at-row-solo.PostalCode');
+            } else {
+                $('<p class="at-markup international-address-disclaimer SmsLegalDisclaimer at-legal" style="margin-left:0.625em"><strong>International Addresses:</strong> We cannot accept payments from international addresses at this time. Please consider making a donation to <a href="http://www.greenpeace.org/international/en/supportus/" target="_blank" title="Donate to Greenpeace">Greenpeace International.</a></p>').insertAfter('.onlineaction-type-contribution .at-row.at-row-solo.PostalCode');
+            }
+        }
+        addedAddressInfo = true;
+      });
+    }
+    var nvtag_callbacks = nvtag_callbacks || {};
+    nvtag_callbacks.postRender = nvtag_callbacks.postRender || [];
+    nvtag_callbacks.postRender.push(addressDisclaimer);
+</script>
+<script type="application/javascript">
+/*!
+ * clipboard.js v1.7.1
+ * https://zenorocha.github.io/clipboard.js
+ *
+ * Licensed MIT Â© Zeno Rocha
+ */
+!function(t){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define([],t);else{var e;e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,e.Clipboard=t()}}(function(){var t,e,n;return function t(e,n,o){function i(a,c){if(!n[a]){if(!e[a]){var l="function"==typeof require&&require;if(!c&&l)return l(a,!0);if(r)return r(a,!0);var s=new Error("Cannot find module '"+a+"'");throw s.code="MODULE_NOT_FOUND",s}var u=n[a]={exports:{}};e[a][0].call(u.exports,function(t){var n=e[a][1][t];return i(n||t)},u,u.exports,t,e,n,o)}return n[a].exports}for(var r="function"==typeof require&&require,a=0;a<o.length;a++)i(o[a]);return i}({1:[function(t,e,n){function o(t,e){for(;t&&t.nodeType!==i;){if("function"==typeof t.matches&&t.matches(e))return t;t=t.parentNode}}var i=9;if("undefined"!=typeof Element&&!Element.prototype.matches){var r=Element.prototype;r.matches=r.matchesSelector||r.mozMatchesSelector||r.msMatchesSelector||r.oMatchesSelector||r.webkitMatchesSelector}e.exports=o},{}],2:[function(t,e,n){function o(t,e,n,o,r){var a=i.apply(this,arguments);return t.addEventListener(n,a,r),{destroy:function(){t.removeEventListener(n,a,r)}}}function i(t,e,n,o){return function(n){n.delegateTarget=r(n.target,e),n.delegateTarget&&o.call(t,n)}}var r=t("./closest");e.exports=o},{"./closest":1}],3:[function(t,e,n){n.node=function(t){return void 0!==t&&t instanceof HTMLElement&&1===t.nodeType},n.nodeList=function(t){var e=Object.prototype.toString.call(t);return void 0!==t&&("[object NodeList]"===e||"[object HTMLCollection]"===e)&&"length"in t&&(0===t.length||n.node(t[0]))},n.string=function(t){return"string"==typeof t||t instanceof String},n.fn=function(t){return"[object Function]"===Object.prototype.toString.call(t)}},{}],4:[function(t,e,n){function o(t,e,n){if(!t&&!e&&!n)throw new Error("Missing required arguments");if(!c.string(e))throw new TypeError("Second argument must be a String");if(!c.fn(n))throw new TypeError("Third argument must be a Function");if(c.node(t))return i(t,e,n);if(c.nodeList(t))return r(t,e,n);if(c.string(t))return a(t,e,n);throw new TypeError("First argument must be a String, HTMLElement, HTMLCollection, or NodeList")}function i(t,e,n){return t.addEventListener(e,n),{destroy:function(){t.removeEventListener(e,n)}}}function r(t,e,n){return Array.prototype.forEach.call(t,function(t){t.addEventListener(e,n)}),{destroy:function(){Array.prototype.forEach.call(t,function(t){t.removeEventListener(e,n)})}}}function a(t,e,n){return l(document.body,t,e,n)}var c=t("./is"),l=t("delegate");e.exports=o},{"./is":3,delegate:2}],5:[function(t,e,n){function o(t){var e;if("SELECT"===t.nodeName)t.focus(),e=t.value;else if("INPUT"===t.nodeName||"TEXTAREA"===t.nodeName){var n=t.hasAttribute("readonly");n||t.setAttribute("readonly",""),t.select(),t.setSelectionRange(0,t.value.length),n||t.removeAttribute("readonly"),e=t.value}else{t.hasAttribute("contenteditable")&&t.focus();var o=window.getSelection(),i=document.createRange();i.selectNodeContents(t),o.removeAllRanges(),o.addRange(i),e=o.toString()}return e}e.exports=o},{}],6:[function(t,e,n){function o(){}o.prototype={on:function(t,e,n){var o=this.e||(this.e={});return(o[t]||(o[t]=[])).push({fn:e,ctx:n}),this},once:function(t,e,n){function o(){i.off(t,o),e.apply(n,arguments)}var i=this;return o._=e,this.on(t,o,n)},emit:function(t){var e=[].slice.call(arguments,1),n=((this.e||(this.e={}))[t]||[]).slice(),o=0,i=n.length;for(o;o<i;o++)n[o].fn.apply(n[o].ctx,e);return this},off:function(t,e){var n=this.e||(this.e={}),o=n[t],i=[];if(o&&e)for(var r=0,a=o.length;r<a;r++)o[r].fn!==e&&o[r].fn._!==e&&i.push(o[r]);return i.length?n[t]=i:delete n[t],this}},e.exports=o},{}],7:[function(e,n,o){!function(i,r){if("function"==typeof t&&t.amd)t(["module","select"],r);else if(void 0!==o)r(n,e("select"));else{var a={exports:{}};r(a,i.select),i.clipboardAction=a.exports}}(this,function(t,e){"use strict";function n(t){return t&&t.__esModule?t:{default:t}}function o(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}var i=n(e),r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},a=function(){function t(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(e,n,o){return n&&t(e.prototype,n),o&&t(e,o),e}}(),c=function(){function t(e){o(this,t),this.resolveOptions(e),this.initSelection()}return a(t,[{key:"resolveOptions",value:function t(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};this.action=e.action,this.container=e.container,this.emitter=e.emitter,this.target=e.target,this.text=e.text,this.trigger=e.trigger,this.selectedText=""}},{key:"initSelection",value:function t(){this.text?this.selectFake():this.target&&this.selectTarget()}},{key:"selectFake",value:function t(){var e=this,n="rtl"==document.documentElement.getAttribute("dir");this.removeFake(),this.fakeHandlerCallback=function(){return e.removeFake()},this.fakeHandler=this.container.addEventListener("click",this.fakeHandlerCallback)||!0,this.fakeElem=document.createElement("textarea"),this.fakeElem.style.fontSize="12pt",this.fakeElem.style.border="0",this.fakeElem.style.padding="0",this.fakeElem.style.margin="0",this.fakeElem.style.position="absolute",this.fakeElem.style[n?"right":"left"]="-9999px";var o=window.pageYOffset||document.documentElement.scrollTop;this.fakeElem.style.top=o+"px",this.fakeElem.setAttribute("readonly",""),this.fakeElem.value=this.text,this.container.appendChild(this.fakeElem),this.selectedText=(0,i.default)(this.fakeElem),this.copyText()}},{key:"removeFake",value:function t(){this.fakeHandler&&(this.container.removeEventListener("click",this.fakeHandlerCallback),this.fakeHandler=null,this.fakeHandlerCallback=null),this.fakeElem&&(this.container.removeChild(this.fakeElem),this.fakeElem=null)}},{key:"selectTarget",value:function t(){this.selectedText=(0,i.default)(this.target),this.copyText()}},{key:"copyText",value:function t(){var e=void 0;try{e=document.execCommand(this.action)}catch(t){e=!1}this.handleResult(e)}},{key:"handleResult",value:function t(e){this.emitter.emit(e?"success":"error",{action:this.action,text:this.selectedText,trigger:this.trigger,clearSelection:this.clearSelection.bind(this)})}},{key:"clearSelection",value:function t(){this.trigger&&this.trigger.focus(),window.getSelection().removeAllRanges()}},{key:"destroy",value:function t(){this.removeFake()}},{key:"action",set:function t(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"copy";if(this._action=e,"copy"!==this._action&&"cut"!==this._action)throw new Error('Invalid "action" value, use either "copy" or "cut"')},get:function t(){return this._action}},{key:"target",set:function t(e){if(void 0!==e){if(!e||"object"!==(void 0===e?"undefined":r(e))||1!==e.nodeType)throw new Error('Invalid "target" value, use a valid Element');if("copy"===this.action&&e.hasAttribute("disabled"))throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');if("cut"===this.action&&(e.hasAttribute("readonly")||e.hasAttribute("disabled")))throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');this._target=e}},get:function t(){return this._target}}]),t}();t.exports=c})},{select:5}],8:[function(e,n,o){!function(i,r){if("function"==typeof t&&t.amd)t(["module","./clipboard-action","tiny-emitter","good-listener"],r);else if(void 0!==o)r(n,e("./clipboard-action"),e("tiny-emitter"),e("good-listener"));else{var a={exports:{}};r(a,i.clipboardAction,i.tinyEmitter,i.goodListener),i.clipboard=a.exports}}(this,function(t,e,n,o){"use strict";function i(t){return t&&t.__esModule?t:{default:t}}function r(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function a(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e}function c(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)}function l(t,e){var n="data-clipboard-"+t;if(e.hasAttribute(n))return e.getAttribute(n)}var s=i(e),u=i(n),f=i(o),d="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},h=function(){function t(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(e,n,o){return n&&t(e.prototype,n),o&&t(e,o),e}}(),p=function(t){function e(t,n){r(this,e);var o=a(this,(e.__proto__||Object.getPrototypeOf(e)).call(this));return o.resolveOptions(n),o.listenClick(t),o}return c(e,t),h(e,[{key:"resolveOptions",value:function t(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};this.action="function"==typeof e.action?e.action:this.defaultAction,this.target="function"==typeof e.target?e.target:this.defaultTarget,this.text="function"==typeof e.text?e.text:this.defaultText,this.container="object"===d(e.container)?e.container:document.body}},{key:"listenClick",value:function t(e){var n=this;this.listener=(0,f.default)(e,"click",function(t){return n.onClick(t)})}},{key:"onClick",value:function t(e){var n=e.delegateTarget||e.currentTarget;this.clipboardAction&&(this.clipboardAction=null),this.clipboardAction=new s.default({action:this.action(n),target:this.target(n),text:this.text(n),container:this.container,trigger:n,emitter:this})}},{key:"defaultAction",value:function t(e){return l("action",e)}},{key:"defaultTarget",value:function t(e){var n=l("target",e);if(n)return document.querySelector(n)}},{key:"defaultText",value:function t(e){return l("text",e)}},{key:"destroy",value:function t(){this.listener.destroy(),this.clipboardAction&&(this.clipboardAction.destroy(),this.clipboardAction=null)}}],[{key:"isSupported",value:function t(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:["copy","cut"],n="string"==typeof e?[e]:e,o=!!document.queryCommandSupported;return n.forEach(function(t){o=o&&!!document.queryCommandSupported(t)}),o}}]),e}(u.default);t.exports=p})},{"./clipboard-action":7,"good-listener":4,"tiny-emitter":6}]},{},[8])(8)});
+</script>
+
+<script type="application/javascript">
+    jQuery(document).ready(function($) {
+    
+    var shareURL = window.location.origin + window.location.pathname + "?utm_source=ea&utm_medium=donate_share&utm_campaign=copy";
+    
+    $('<div class="bg-overlay modal post-donate"></div><div class="modal-overlay modal post-donate"><div class="modal-window"><div class="modal-close post-donate">✖</div><h2 class="modal-header">Thanks for supporting Greenpeace!</h2><h3 class="modal-subhead">Ask your friends to join you!</h3><div class="copy-module"><input id="copyInput" class="copyInput" type="text" readonly="readonly" value="'+shareURL+'"><div class="copyButton" data-clipboard-target="#copyInput">Copy</div></div><div class="share-buttons thankYou"><div id="modalTarget"></div></div><div class="copySuccess-holder"><div class="copySuccess">Copied</div></div></div></div>').insertAfter('header');
+    
+    	var clipboard = new Clipboard('.copyButton');
+    	
+    	clipboard.on('success', function(e) {
+    		$(".copySuccess-holder").slideDown(50, function() {
+            if ($(this).is(':visible'))
+                $(this).css('display','inline-block');
+            });
+    		e.clearSelection();
+    	});
+    	
+    	$("body").on("click", ".modal-close.post-donate, .bg-overlay.post-donate", function() {
+    		$(".modal.post-donate").fadeOut(80);
+    		$("#fbShareBtn, #twShareBtn").removeClass("shareButton");
+    		$("#fbShareBtn").insertAfter("#pageTarget");
+    		$("#twShareBtn").insertAfter("#fbShareBtn");
+    	});
+    	
+    });
+    
+    var segueCallback = function(args) {
+        (function ($) {
+            var timerId = 0;
+        	var clocker = 0;
+        	
+            if(args.thank) {
+                timerId = setInterval(function () {
+            			checkClock();
+            			clocker++;
+                }, 1000);
+            }
+        	
+        	function checkClock() {
+        		if( $("#fbShareBtn").length ) { // if buttons are there
+        			clearInterval(timerId);
+        			showPostDonatePopup();
+        		} else if( clocker > 5 ) { // if no buttons but clock
+        			clearInterval(timerId);
+        			clocker=0;
+        		}
+        	}
+        	
+        	function showPostDonatePopup() {
+        		$(".modal-overlay.post-donate").css("display", "flex");
+        		$(".bg-overlay.post-donate").css("display", "block");
+        		$("<div id='pageTarget'></div>").insertBefore("#fbShareBtn");
+        		$("#fbShareBtn, #twShareBtn").addClass("shareButton");
+        		$("#fbShareBtn").insertAfter("#modalTarget");
+        		$("#twShareBtn").insertAfter("#fbShareBtn");
+                        $(".modal-overlay.exit-intent").removeClass("enabled");
+        		$(".bg-overlay.exit-intent").removeClass("enabled");
+        	}
+            return args;
+        }(jQuery));
+    };
+    var nvtag_callbacks = nvtag_callbacks || {};
+    nvtag_callbacks.segue = nvtag_callbacks.segue || [];
+    nvtag_callbacks.segue.push(segueCallback);
+</script>
+<script type="application/javascript">
+var removeLists = function() {
+  jQuery(document).ready(function($) {
+    $(".Occupation.Employer input").attr("list", "");
+  });
+}
+var nvtag_callbacks = nvtag_callbacks || {};
+nvtag_callbacks.postRender = nvtag_callbacks.postRender || [];
+nvtag_callbacks.postRender.push(removeLists);
+</script>
+
+    
+        <!-- NGPVAN Body Content -->
+        <script async src="https://js.verygoodvault.com/vgs-collect/1/AC2nt8erbFu3svSWxmyTZr1b.js" type="text/javascript" crossorigin="anonymous" onerror="handleScriptLoadError(event)"></script>
+        <script async src="https://d3rse9xjbp8270.cloudfront.net/at.js" type="text/javascript" crossorigin="anonymous" onerror="handleScriptLoadError(event)" charset="utf-8"></script>
+        
+
+
+    </div>
+    
+</body>
+</html>
