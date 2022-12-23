@@ -48,3 +48,15 @@ a:hover,
 a:active {
   color: var(--text-color);
 }
+
+.holiday {
+  background: red;
+  padding: 1em;
+  color: white;
+}
+
+.holiday a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
